@@ -18,9 +18,6 @@ It includes modules for standard experiments, agent configuration, data processi
 - `agent.py`  
   Module containing the implementation of the Agent class.
 
-- `data/`  
-  Directory containing prompt keywords and the original Mafia game logs.
-
 - `mafia.json`  
   Structured data extracted from the raw Mafia game logs.
 
@@ -32,6 +29,11 @@ It includes modules for standard experiments, agent configuration, data processi
 
 - `vote_only_test.py`  
   Temporary script implementing the Direct Voting Experiment, in which six agents vote individually without discussion.
+
+- `result/`  
+  Contains the collected experimental results.  
+  Files indexed from `0` to `99` correspond to the **standard experiment** (multi-agent discussion).  
+  Files indexed from `100` to `200` correspond to the **direct voting experiment** (six agents vote individually without discussion).
 
 ---
 
